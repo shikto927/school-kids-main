@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Standard Curriculum</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f8f9fa;
+      margin: 0;
+      padding: 20px;
+      text-align: center;
+    }
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+    .curriculum-container {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+    .card {
+      background-color: #fff;
+      border-radius: 15px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      text-align: center;
+      width: 250px;
+      transition: transform 0.3s ease;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    .card img {
+      width: 80px;
+      margin-bottom: 15px;
+    }
+    .card h3 {
+      font-size: 1.2rem;
+      margin-bottom: 10px;
+    }
+    .card p {
+      font-size: 0.9rem;
+      color: #666;
+      margin-bottom: 15px;
+    }
+    .card a {
+      text-decoration: none;
+      color: #007bff;
+      font-weight: bold;
+    }
+    .card a:hover {
+      text-decoration: underline;
+    }
+    .pagination {
+      margin-top: 20px;
+    }
+    .pagination button {
+      background-color: #fff;
+      border: 1px solid #ddd;
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      cursor: pointer;
+      margin: 0 5px;
+      transition: background-color 0.3s ease;
+    }
+    .pagination button:hover {
+      background-color: #007bff;
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+  <h1>Standard Curriculum</h1>
+  <div class="curriculum-container">
+    <div class="card">
+      <img src="https://via.placeholder.com/80" alt="Kinder">
+      <h3>Kinder (3-6 Years)</h3>
+      <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+      <a href="#">Read More</a>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/80" alt="Elementary School">
+      <h3>Elementary School</h3>
+      <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+      <a href="#">Read More</a>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/80" alt="Middle School">
+      <h3>Middle (10-16 Years)</h3>
+      <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+      <a href="#">Read More</a>
+    </div>
+  </div>
+  <div class="pagination">
+    <button>&lt;</button>
+    <button>&gt;</button>
+  </div>
+</body>
+</html>
